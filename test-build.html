@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>DataTable Demo</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+        body {
+            margin: 10px;
+            padding-left: 15px;
+        }
+
+        br {
+            float: left;
+            clear: left;
+        }
+
+        #tableGoesHere {
+            float:left;
+        }
+
+        #controls th,
+        #controls td {
+            text-align: left;
+            vertical-align: text-top;
+        }
+
+        #controls td button{
+            margin-top: 5px;
+        }
+
+        #controls #addRows,
+        #controls #autoAppend,
+        #controls #freezeColumns {
+            width: 60px;
+        }
+        #console p {
+            color: #A0522D;
+            margin-bottom: 3px;
+        }
+        #console p span {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+    <table id="controls">
+     <tbody>
+      <tr>
+       <th>Rows:</th>
+       <td>
+        <input type="number" step="500" min="0" id="addRows" value="2000" />
+        <button id="btn-add-row" type="button">Append</button>
+        <button id="btn-drop-row" type="button">Drop</button>
+        <br />
+        
+        Auto-append 
+        <input type="number" step="500" min="0" id="autoAppend" value="0" />
+        rows upon reaching the oldest data-point.
+        <br />
+        
+        <button id="btn-load-data" type="button">Reload</button>
+        <button id="btn-drop-all" type="button">Drop All</button>
+       </td>
+      </tr>
+
+
+      <tr>
+       <th>Columns:</th>
+       <td>
+        <button id="btn-add-col" type="button">Add Column</button>
+        <button id="btn-drop-col" type="button">Drop Column</button>
+        <br />
+        <input type="number" step="1" min="0" id="freezeColumns" value="1" />
+        <button id="freeze-cols" type="button">Freeze Columns</button>
+       </td>
+      </tr>
+      
+      <tr>
+       <th>Size:</th>
+       <td>
+        <button id="btn-set-width" type="button">Set Width</button>
+        <button id="btn-set-height" type="button">Set Height</button>
+       </td>
+      </tr>
+        
+      <th><br/></th>
+      <tr>
+       <th>Summary:</th>
+       <td>
+        &nbsp;
+        <label>
+        <input type="checkbox" id="sum-enabled">
+         Statstics Enabled
+        </label>
+        <br />
+        <br />
+        <select id="stat-options" multiple="multiple" size="10">
+               <option value="avg">Average</option>
+               <option value="max" >Maximum</option>
+               <option value="min">Minimum</option>
+               <option value="avgPos" >AvgPos</option>
+               <option value="avgNeg" >AvgNeg</option>
+               <option value="pctPos" >PctPos</option>
+               <option value="pctNeg" >PctNeg</option>
+               <option value="stdDev" >StdDev</option>
+               <option value="zStat" >ZStat</option>
+               <option value="variance" >Variance</option>
+        </select>
+        <br />
+        <br />
+        <br />
+       </td>
+      </tr>
+
+     </tbody>
+    </table>
+    </form>
+
+    <br />
+
+    <div id="tableGoesHere"></div>
+
+    <br />
+    <br />
+    <div id="console">
+    <p>
+     Now browsing <span id="numRows">0</span> rows.
+    </p>
+    <p>
+     Right clicked on column header : <span id="headerCell"></span>
+    </p>
+    </div>
+        
+    <script src='./build.js'></script>
+</body>
+</html>
