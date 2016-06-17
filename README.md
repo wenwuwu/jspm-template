@@ -38,7 +38,7 @@ Desktop: Chrome, Safari, Firefox, Opera, IE9+       *TODO review.*
 
 1. Clone this repo.
 2. Run command 'live-server' ( [live-server][link-ls] is very useful, but if you have other server tools you don't have to use it. )
-2. Open test.html in a browser.
+2. Open test.html in a browser. (*TODO add test.)
 
 
 [icon-jv]: https://img.shields.io/badge/jspm-v1.0.0-blue.svg?style=flat
