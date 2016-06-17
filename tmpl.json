@@ -1,0 +1,14 @@
+{
+    "registry": "jspm",
+    "format": "cjs",
+    "ignore": [
+        ".gitignore",
+        ".npmignore",
+        ".travis.yml",
+        "screenshots",
+        "test-build.html",
+        "test.html",
+        "test.css",
+        "test.js"
+    ]
+}
