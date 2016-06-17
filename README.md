@@ -22,11 +22,11 @@ Desktop: Chrome, Safari, Firefox, Opera, IE9+
 
 ```js
 
-    var package-name = require('package-name');
+    import package-name from 'package-name';
 
     or
 
-    import package-name from 'package-name';
+    var package-name = require('package-name');
 
 ```
 
@@ -36,7 +36,7 @@ Desktop: Chrome, Safari, Firefox, Opera, IE9+
     npm test          
 ```
 
-[icon-jv]: https://img.shields.io/badge/jspm-v{jspm-version}-blue.svg?style=flat
+[icon-jv]: https://img.shields.io/badge/jspm-v1.0.0-blue.svg?style=flat
 
 [icon-bs]: https://travis-ci.org/wenwuwu/package-name.svg?branch=master
 [link-bs]: https://travis-ci.org/wenwuwu/package-name
