@@ -1,7 +1,7 @@
 package-name
 =========
 
-[![NPM version][icon-nv]][link-nv]
+[![JSPM version][icon-jv]]
 [![Build Status][icon-bs]][link-bs]
 [![Clean Code][icon-cc]][link-cc]
 [![Dependency Status][icon-ds]][link-ds]
@@ -10,16 +10,12 @@ package-name
 
 ## Browser support
 
-Chrome, Safari, Firefox, Opera, IE9+
+Desktop: Chrome, Safari, Firefox, Opera, IE9+
 
 ## Installation 
 
 ```shell
-    npm install package-name
-
-    or 
-
-    jspm install npm:package-name
+    jspm install github:wenwuwu/package-name
 ```
 
 ## Usage
@@ -27,6 +23,10 @@ Chrome, Safari, Firefox, Opera, IE9+
 ```js
 
     var package-name = require('package-name');
+
+    or
+
+    import package-name from 'package-name';
 
 ```
 
@@ -36,8 +36,8 @@ Chrome, Safari, Firefox, Opera, IE9+
     npm test          
 ```
 
-[icon-nv]: https://img.shields.io/npm/v/package-name.svg?style=flat
-[link-nv]: https://www.npmjs.com/package/package-name
+[icon-jv]: https://img.shields.io/badge/jspm-v{jspm-version}-blue.svg?style=flat
+
 [icon-bs]: https://travis-ci.org/wenwuwu/package-name.svg?branch=master
 [link-bs]: https://travis-ci.org/wenwuwu/package-name
 [icon-ds]: https://img.shields.io/david/wenwuwu/package-name.svg?style=flat
