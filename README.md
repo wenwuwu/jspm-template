@@ -1,16 +1,17 @@
 package-name
 =========
 
-[![JSPM version][icon-jv]]
-[![Build Status][icon-bs]][link-bs]
+![JSPM version][icon-jv]
 [![Clean Code][icon-cc]][link-cc]
 [![Dependency Status][icon-ds]][link-ds]
 [![devDependency Status][icon-dds]][link-dds]
 [![License][icon-li]][link-li]
 
+( [David.][link-dv] does not support JSPM package dependency badges right now, so the dependency status is not correct. )
+
 ## Browser support
 
-Desktop: Chrome, Safari, Firefox, Opera, IE9+
+Desktop: Chrome, Safari, Firefox, Opera, IE9+       *TODO review.*
 
 ## Installation 
 
@@ -30,16 +31,18 @@ Desktop: Chrome, Safari, Firefox, Opera, IE9+
 
 ```
 
+    *TODO add docs.*
+
+
 ## Tests
 
-```shell
-    npm test          
-```
+1. Clone this repo.
+2. Run command 'live-server' ( [live-server][link-ls] is very useful, but if you have other server tools you don't have to use it. )
+2. Open test.html in a browser.
+
 
 [icon-jv]: https://img.shields.io/badge/jspm-v1.0.0-blue.svg?style=flat
 
-[icon-bs]: https://travis-ci.org/wenwuwu/package-name.svg?branch=master
-[link-bs]: https://travis-ci.org/wenwuwu/package-name
 [icon-ds]: https://img.shields.io/david/wenwuwu/package-name.svg?style=flat
 [link-ds]: https://david-dm.org/wenwuwu/package-name
 [icon-dds]: https://img.shields.io/david/dev/wenwuwu/package-name.svg?style=flat
@@ -48,3 +51,6 @@ Desktop: Chrome, Safari, Firefox, Opera, IE9+
 [link-cc]: https://github.com/wenwuwu/code-convention-js 
 [icon-li]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [link-li]: http://opensource.org/licenses/MIT
+
+[link-dv]: https://david-dm.org
+[link-ls]: https://www.npmjs.com/package/live-server
