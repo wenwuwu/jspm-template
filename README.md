@@ -39,7 +39,7 @@ package-name
 
 1. Clone this repo.
 2. Run command **live-server** ( [live-server][link-ls] is very useful, but if you have other server tools you don't have to use it.)
-2. Open **test.html** in a browser.
+3. Open **test.html** in a browser.
 
 ## Todo
 
