@@ -9,9 +9,13 @@ package-name
 
 ( [David.][link-dv] does not support JSPM package dependency badges right now, so the dependency status is not correct. )
 
+<p align="center">
+    <img src="screenshots/demo.png" title="screenshot" />
+</p>
+
 ## Browser support
 
-Desktop: Chrome, Safari, Firefox, Opera, IE9+       *TODO review.*
+**Desktop**: Chrome, Safari, Firefox, Opera, IE9+
 
 ## Installation 
 
@@ -31,14 +35,18 @@ Desktop: Chrome, Safari, Firefox, Opera, IE9+       *TODO review.*
 
 ```
 
-    *TODO add docs.*
-
-
 ## Tests
 
 1. Clone this repo.
-2. Run command 'live-server' ( [live-server][link-ls] is very useful, but if you have other server tools you don't have to use it. )
-2. Open test.html in a browser. (*TODO add test.)
+2. Run command **live-server** ( [live-server][link-ls] is very useful, but if you have other server tools you don't have to use it.)
+2. Open **test.html** in a browser.
+
+## Todo
+
+- [ ] Add complete document :balloon:
+- [ ] Add test.
+- [ ] Review browsers supports.
+
 
 
 [icon-jv]: https://img.shields.io/badge/jspm-v1.0.0-blue.svg?style=flat
