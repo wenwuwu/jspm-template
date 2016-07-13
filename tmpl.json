@@ -5,10 +5,13 @@
         ".gitignore",
         ".npmignore",
         ".travis.yml",
+        ".eslintrc.js",
+        ".jshintrc",
         "screenshots",
         "test-build.html",
         "test.html",
         "test.css",
-        "test.js"
+        "test.js",
+        "test.jsx"
     ]
 }
