@@ -9,10 +9,6 @@
         ".jshintrc",
         "screenshots",
         "test",
-        "demo-build.html",
-        "demo.html",
-        "demo.css",
-        "demo.js",
-        "demo.jsx"
+        "demo"
     ]
 }
