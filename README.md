@@ -35,7 +35,7 @@ package-name
 
 ```
 
-## Test
+## Demo
 
 1. Clone this repo.
 2. Run **npm install**  ( You can skip this step if you have a globally installed jspm.)
