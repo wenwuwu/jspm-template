@@ -35,13 +35,13 @@ package-name
 
 ```
 
-## Tests
+## Test
 
 1. Clone this repo.
 2. Run **npm install**  ( You can skip this step if you have a globally installed jspm.)
 3. Run **jspm install**.
 4. Run **live-server** ( [live-server][link-ls] is very useful, but if you have other server tools you don't have to use it.)
-5. Open **test.html** in a browser.
+5. Open **demo.html** in a browser.
 
 ## Todo
 

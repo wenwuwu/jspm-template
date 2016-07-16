@@ -1,6 +1,6 @@
 {
     "registry": "jspm",
-    "format": "cjs",
+    "format": "es6",
     "ignore": [
         ".gitignore",
         ".npmignore",
@@ -8,10 +8,11 @@
         ".eslintrc.js",
         ".jshintrc",
         "screenshots",
-        "test-build.html",
-        "test.html",
-        "test.css",
-        "test.js",
-        "test.jsx"
+        "test",
+        "demo-build.html",
+        "demo.html",
+        "demo.css",
+        "demo.js",
+        "demo.jsx"
     ]
 }
