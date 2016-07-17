@@ -25,14 +25,15 @@ package-name
 
 ## Usage
 
+An example :
+
 ```js
-
     import package-name from 'package-name';
+```
 
-    or
+Public properties and methods :
 
-    var package-name = require('package-name');
-
+```js
 ```
 
 ## Demo
