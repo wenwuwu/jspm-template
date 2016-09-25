@@ -31,6 +31,7 @@ demo/build
 dist
 tmp
 server.pro.js
+public/bundle.js*
 
 # Dependency directories
 node_modules
